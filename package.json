@@ -1,8 +1,9 @@
 {
-  "name": "react-lazyload",
-  "version": "2.6.8",
+  "name": "@leicht.io/react-lazyload",
+  "version": "3.2.2",
   "description": "Lazyload your components, images or anything where performance matters.",
   "main": "lib/index.js",
+  "typings": "./index.d.ts",
   "scripts": {
     "test": "karma start test/karma.conf.js",
     "demo:watch": "webpack-dev-server --inline --config webpack.config.js --content-base examples --port 8721",
@@ -64,7 +65,7 @@
     "webpack-dev-server": "~1.10.1"
   },
   "peerDependencies": {
-    "react": "^0.14.0 || ^15.0.0 || ^16.0.0",
-    "react-dom": "^0.14.0 || ^15.0.0 || ^16.0.0"
+    "react": "^0.14.0 || ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0",
+    "react-dom": "^0.14.0 || ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0"
   }
 }
