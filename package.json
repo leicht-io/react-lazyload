@@ -1,6 +1,6 @@
 {
   "name": "@leicht.io/react-lazyload",
-  "version": "3.2.2",
+  "version": "3.2.3",
   "description": "Lazyload your components, images or anything where performance matters.",
   "main": "lib/index.js",
   "typings": "./index.d.ts",
